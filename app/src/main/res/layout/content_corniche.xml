@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".corniche"
+    tools:showIn="@layout/activity_corniche">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="398dp"
+        android:layout_height="254dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hotel_residence_la_corniche_png" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="388dp"
+        android:layout_height="181dp"
+        android:text="Établissement trois étoiles situé à 5 minutes du centre ville, l’Hôtel Résidence la Corniche offre un service d’hébergement hors pair.  Pour des vacances mémorables ou une réunion d’affaires réussie, vous profiterez de nos nombreux services et commodités :      Terrasse avec vue sur le monument de la renaissance     Restaurant avec spécialités sénégalaises et européennes     Salles de séminaire et de réunions     Parking garde 24/24h     Groupe électrogène     Réservoir d’eau     Paiement par carte bancaire     Navette aéroport     Service de Blanchisserie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <Button
+        android:id="@+id/buttoncorniche"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+</android.support.constraint.ConstraintLayout>

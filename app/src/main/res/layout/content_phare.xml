@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".phare"
+    tools:showIn="@layout/activity_phare">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="378dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hotelphare_png" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="332dp"
+        android:layout_height="224dp"
+        android:text="Notre hôtel est situé aux Mamelles, un quartier calme résidentiel et sécurisé de Dakar. Localisé à 15 minutes du Plateau, le centre-ville de Dakar, à 500 mètres des plages. Idéalement situé entre les quartiers de Ngor, Yoff et Ouakam ainsi que des Almadies, le nouveau Dakar qui bouge avec ses restaurants branchés et discothèques dès la soirée commence.  Les environs de l’hôtel regorgent d’opportunités pour découvrir la ville, ils vous suffira de quelques minutes pour accéder à divers endroits variés tels que la plage, le centre-ville, les marchés, le quartier branché avec ses boutiques, restaurants et discothèques."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <Button
+        android:id="@+id/buttonphare"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+</android.support.constraint.ConstraintLayout>

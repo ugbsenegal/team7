@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".rhino"
+    tools:showIn="@layout/activity_rhino">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="284dp"
+        android:layout_height="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rhino" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="245dp"
+        android:layout_height="188dp"
+        android:text="Le rhinocéros exposé à l’entrée a donné son nom a l’hôtel. Cette pièce unique a été cédée par le célèbre musée du bois exotique de Chiang Mai en Thaïlande.Saviez-vous que le merveilleux reflet qu’on peut apprécier sur les robes du personnel féminin, provient de l’action de l’eau du Mali sur la teinture de ce tissu appelé bazin riche?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <Button
+        android:id="@+id/buttonrhino"
+        android:layout_width="146dp"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+</android.support.constraint.ConstraintLayout>

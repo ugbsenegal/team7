@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".radisson"
+    tools:showIn="@layout/activity_radisson">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="285dp"
+        android:layout_height="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/redisson_png" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="289dp"
+        android:layout_height="206dp"
+        android:text="On dit souvent qu’il faut le voir pour le croire, et le Radisson Blu Hotel at Dakar Sea Plaza fait partie de ces hôtels incroyables. Cet hôtel sophistiqué et moderne situé sur la paisible presqu’île du Cap Vert est implanté sur un site remarquable, dans le quartier prisé et chic de Fann Corniche. Les 241 chambres et suites entièrement équipées de cet élégant hôtel ont pour caractéristique un design contemporain et de superbes équipements, dont la climatisation individuelle et l’accès Internet haut débit sans fil gratuit."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <Button
+        android:id="@+id/buttonradisson"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+</android.support.constraint.ConstraintLayout>

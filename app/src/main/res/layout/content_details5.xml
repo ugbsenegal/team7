@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Details5"
+    tools:showIn="@layout/activity_details5">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="381dp"
+        android:layout_height="192dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/saly" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="171dp"
+        android:layout_height="53dp"
+        android:background="@color/colorPrimary"
+        android:text="Hotels à proximité"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="309dp"
+        android:layout_height="210dp"
+        android:background="@android:color/white"
+        android:text="Saly est une zone de complexes balnéaires située sur la Petite-Côte, une région du Sénégal. Ancien comptoir commercial portugais, le village de Saly Portudal accueille des restaurants, le parcours de golf de Saly et un marché artisanal. Le long de la côte, à l'ouest, Saly Nord possède une plage bordée de palmiers. À l'est, à Saly Niakhniakhal, le front de mer regorge de restaurants et de villas. Des bateaux de pêche en eaux profondes regagnent les rives avec des voiliers, des marlins ou des thons."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="122dp"
+        android:layout_height="28dp"
+        android:text="Saly Mbour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+</android.support.constraint.ConstraintLayout>

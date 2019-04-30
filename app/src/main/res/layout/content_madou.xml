@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".madou"
+    tools:showIn="@layout/activity_madou">
+
+    <ImageView
+        android:id="@+id/im6"
+        android:layout_width="312dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/hotel_madou_goree" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="238dp"
+        android:layout_height="209dp"
+        android:background="@android:color/white"
+        android:text="Situé à l'île de Goree au Sénégal, l'hôtel Madou combine la convivialité, le confort et une vue paradisiaque. L'accès Internet via le WiFi est gratuit.  L'hôtel Madou propose des chambres bien équipées, chacune d'un canapé, d'un bureau, d'un téléviseur câblé et dispose d'une salle de bain.  Un petit déjeuner est servi tous les jours. Le restaurant propose une grande variété de plats et le bar sert des boissons."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <Button
+        android:id="@+id/bout5"
+        android:layout_width="162dp"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+</android.support.constraint.ConstraintLayout>

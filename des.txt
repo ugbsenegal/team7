@@ -1,0 +1,12 @@
+SenTourisme est une application présentant les différents sites qui se trouvent au Senegal et d leurs hôtels à proximité du site choisi.
+
+Pour cela l'utilisateur peut choisir un site puis clic sur l'image pour voir les hotels à proximité du site choisi.cette  page montre  une description de l’hôtel choisi et un bouton cliquable qui nous méne sur le site Web de l’hôtel pour en savoir plus et éventuellement effectuer une réservation.
+cette application  est utile pour toute personne souhaitant décrouvrir le Sénégal mais aussi
+ceux qui y vivent pour découvrir le pays et avoir  les informations sur les sites du pays .
+
+
+
+
+
+L'IFAN est un organisme dépendant du ministère de l'éducation (Sénégal). Il a été créé en 1943, pendant la colonisation. Il était commun au Sénégal et à la Mauritanie, sous la dénomination 
+IFAN-Sénégal-Mauritanie. En 1962 la Mauritanie se retire et le centre prend le nom de CRDS. 

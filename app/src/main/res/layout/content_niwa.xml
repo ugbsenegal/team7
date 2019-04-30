@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".niwa"
+    tools:showIn="@layout/activity_niwa">
+
+    <ImageView
+        android:id="@+id/im6"
+        android:layout_width="226dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/galle_niwa" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="266dp"
+        android:layout_height="222dp"
+        android:background="@android:color/white"
+        android:text="Le Gallé Ñiwa ex Maison du Soudan est situé sur l'île de Gorée classée comme patrimoine mondial de l'UNESCO. L'hôtel possède un jardin tropical unique à Gorée et se caractérise par son calme et sa sécurité. La connexion internet est disponible via le WiFi.  Les chambres de l'hôtel Gallé Niwa alliant raffinement et confort disposent d'un climatiseur, d'un téléviseur à écran plat câblé, d'un mini-bar, d'abat-jours et d'un chauffe-eau. Elles comprennent également une salle de bain privée."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <Button
+        android:id="@+id/bout4"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+</android.support.constraint.ConstraintLayout>

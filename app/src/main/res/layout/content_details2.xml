@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Details2"
+    tools:showIn="@layout/activity_details2">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="374dp"
+        android:layout_height="184dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/goree" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="298dp"
+        android:layout_height="213dp"
+        android:background="@android:color/white"
+        android:text="L'île de Gorée ou Gorée est à la fois une île de l'océan Atlantique nord située dans la baie de Dakar (Sénégal) et l'une des 19 communes d'arrondissement de la capitale. C'est un lieu symbole de la mémoire de la traite négrière en Afrique, reconnu officiellement par l’Organisation des Nations unies (ONU) en 1978 : Gorée, « île-mémoire » de cette tragédie, fut ainsi l’un des tout premiers lieux à être portés sur la liste du patrimoine mondial gérée par l'Organisation des Nations unies pour l'éducation, la science et la culture (UNESCO)."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Hotels à proximité"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="Ile de Gorée"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+</android.support.constraint.ConstraintLayout>

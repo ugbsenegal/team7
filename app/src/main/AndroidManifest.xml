@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.terangasenegal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".villa_rosa"
+            android:label="@string/title_activity_villa_rosa"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".residence_ndongo_fall"
+            android:label="@string/title_activity_residence_ndongo_fall"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".axa"
+            android:label="@string/title_activity_axa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".zeina"
+            android:label="@string/title_activity_zeina"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hotel_monaco_plage"
+            android:label="@string/title_activity_hotel_monaco_plage"
+            android:parentActivityName=".Leshotels3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels3" />
+        </activity>
+        <activity
+            android:name=".hotel_la_voile_dor"
+            android:label="@string/title_activity_hotel_la_voile_dor"
+            android:parentActivityName=".Leshotels3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels3" />
+        </activity>
+        <activity
+            android:name=".hotel_ibis"
+            android:label="@string/title_activity_hotel_ibis"
+            android:parentActivityName=".Leshotels3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels3" />
+        </activity>
+        <activity
+            android:name=".hotel_auberge"
+            android:label="@string/title_activity_hotel_auberge"
+            android:parentActivityName=".Leshotels3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels3" />
+        </activity>
+        <activity
+            android:name=".salyplage"
+            android:label="@string/title_activity_salyplage"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".royam_hotel"
+            android:label="@string/title_activity_royam_hotel"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".rhino"
+            android:label="@string/title_activity_rhino"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".lamatin"
+            android:label="@string/title_activity_lamatin"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".flamboy"
+            android:label="@string/title_activity_flamboy"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".casa"
+            android:label="@string/title_activity_casa"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".bougainvill"
+            android:label="@string/title_activity_bougainvill"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".amaryllis"
+            android:label="@string/title_activity_amaryllis"
+            android:parentActivityName=".Leshotels5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels5" />
+        </activity>
+        <activity
+            android:name=".Leshotels5"
+            android:label="@string/title_activity_leshotels5"
+            android:parentActivityName=".Details5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Details5" />
+        </activity>
+        <activity
+            android:name=".Details5"
+            android:label="@string/title_activity_details5"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".radisson"
+            android:label="@string/title_activity_radisson"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".international"
+            android:label="@string/title_activity_international"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".onomo"
+            android:label="@string/title_activity_onomo"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".phare"
+            android:label="@string/title_activity_phare"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".oclaire"
+            android:label="@string/title_activity_oclaire"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".vdn"
+            android:label="@string/title_activity_vdn"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".corniche"
+            android:label="@string/title_activity_corniche"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".archotel"
+            android:label="@string/title_activity_archotel"
+            android:parentActivityName=".Leshotels4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Leshotels4" />
+        </activity>
+        <activity
+            android:name=".Leshotels4"
+            android:label="@string/title_activity_leshotels4"
+            android:parentActivityName=".Details4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Details4" />
+        </activity>
+        <activity
+            android:name=".Leshotels3"
+            android:label="@string/title_activity_leshotels3"
+            android:parentActivityName=".Details3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Details3" />
+        </activity>
+        <activity
+            android:name=".Details4"
+            android:label="@string/title_activity_details4"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details3"
+            android:label="@string/title_activity_details3"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".marin"
+            android:label="@string/title_activity_marin"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".terroubi"
+            android:label="@string/title_activity_terroubi"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".castel"
+            android:label="@string/title_activity_castel"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".madou"
+            android:label="@string/title_activity_madou"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".niwa"
+            android:label="@string/title_activity_niwa"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".novotel"
+            android:label="@string/title_activity_novotel"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".ibis"
+            android:label="@string/title_activity_ibis"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".pullman"
+            android:label="@string/title_activity_pullman"
+            android:parentActivityName=".LesHotel2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel2" />
+        </activity>
+        <activity
+            android:name=".LesHotel2"
+            android:label="@string/title_activity_les_hotel2"
+            android:parentActivityName=".Details2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Details2" />
+        </activity>
+        <activity
+            android:name=".Details2"
+            android:label="@string/title_activity_details2"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bang1"
+            android:label="@string/title_activity_bang1"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".tour"
+            android:label="@string/title_activity_tour"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".dior"
+            android:label="@string/title_activity_dior"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".sindone"
+            android:label="@string/title_activity_sindone"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".Poste"
+            android:label="@string/title_activity_poste"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".Palmeraie"
+            android:label="@string/title_activity_palmeraie"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".Pointe"
+            android:label="@string/title_activity_pointe"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".siki1"
+            android:label="@string/title_activity_siki1"
+            android:parentActivityName=".LesHotel1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotel1" />
+        </activity>
+        <activity
+            android:name=".LesHotel1"
+            android:label="@string/title_activity_les_hotel1"
+            android:parentActivityName=".Details1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.Details1" />
+        </activity>
+        <activity
+            android:name=".Details1"
+            android:label="@string/title_activity_details1"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bang"
+            android:label="@string/title_activity_bang"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".mermoz"
+            android:label="@string/title_activity_mermoz"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".dada"
+            android:label="@string/title_activity_dada"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".zebrazar"
+            android:label="@string/title_activity_zebrazar"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".siki"
+            android:label="@string/title_activity_siki"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".diamarek"
+            android:label="@string/title_activity_diamarek"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".cap"
+            android:label="@string/title_activity_cap"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".djoudj"
+            android:label="@string/title_activity_djoudj"
+            android:parentActivityName=".LesHotels"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.LesHotels" />
+        </activity>
+        <activity
+            android:name=".LesHotels"
+            android:label="@string/title_activity_les_hotels"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.terangasenegal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

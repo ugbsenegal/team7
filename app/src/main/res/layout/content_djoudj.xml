@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".djoudj"
+    tools:showIn="@layout/activity_djoudj">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="394dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="286dp"
+        android:layout_height="241dp"
+        android:background="@android:color/white"
+        android:text=" L’hôtel  Situé à 60 kilomètres de Saint-Louis, en bordure du parc ornithologique, l’hôtel du Djoudj est une oasis verdoyante aux portes du désert. Il offre un compromis inoubliable entre la nature à perte de vue et l’aménagement d’une installation hôtelière de qualité.  Au cœur de la brousse, loin de la civilisation et de ses turpitudes, un séjour à l’hôtel sera le point de départ de la découverte de la région.  Installations :  Ouvert de novembre à mai, l’hôtel dispose de 60 chambres.      30 climatisées.     30 ventilées.  Deux groupes électrogènes fournissent l’alimentation électrique. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+</android.support.constraint.ConstraintLayout>

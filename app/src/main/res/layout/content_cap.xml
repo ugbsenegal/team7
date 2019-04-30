@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".cap"
+    tools:showIn="@layout/activity_cap">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="388dp"
+        android:layout_height="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img3" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="293dp"
+        android:layout_height="229dp"
+        android:background="@android:color/white"
+        android:text="Dans un cadre de verdure et de fleurs tropicales, sur la Langue de Barbarie entre le fleuve Sénégal et l'Océan Atlantique, l'Hôtel Cap Saint-Louis dispose de 35 chambres tout confort dont 10 duplex.     A cinq heures de vol de Paris, lieu magique où le Sahara, l'Afrique noire et l'océan se rencontrent, Saint-Louis fut la capitale de l'Afrique Occidentale Française et conserve les traces de son passé prestigieux.     C'est de Saint-Louis que s'envola Mermoz pour la première traversée de l'Atlantique sud au temps légendaire de l'aéropostale."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+</android.support.constraint.ConstraintLayout>

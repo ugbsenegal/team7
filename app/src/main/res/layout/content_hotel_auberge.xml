@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".hotel_auberge"
+    tools:showIn="@layout/activity_hotel_auberge">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="304dp"
+        android:layout_height="182dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hotel_auberge" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="288dp"
+        android:layout_height="170dp"
+        android:text="Auberge Au Carrefour des Amis est un établissement simple et confortable, facilement accessible.  A 9 minutes de la Mairie de la Commune de Dalifort Forail - L'Auberge Au Carrefour des Amis est situé à Hann Maristes, à la Cité Belle Vue à Dakar au Sénégal. L'hôtel allie confort et simplicité dans un cadre convivial. La connexion internet WiFi y est disponible gratuitement.  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <Button
+        android:id="@+id/buttonhotel_auberge"
+        android:layout_width="146dp"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+
+</android.support.constraint.ConstraintLayout>

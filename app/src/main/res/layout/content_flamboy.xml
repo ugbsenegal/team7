@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".flamboy"
+    tools:showIn="@layout/activity_flamboy">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="292dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/flamboy" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="291dp"
+        android:layout_height="177dp"
+        android:text="Notre hôtel ;Les Flamboyants est situé sur la Petite Côte du Sénégal au coeur même de la station balnéaire de SALY PORTUDAL gorgée de soleil toute l'année, et à environ 5 heures d'avion de la France. Cet emplacement idéal, lui procure une proximité à toute vos envies. Toute nos équipes n’ont qu'un seul objectif, faire de votre séjour un moment agréable, unique et inoubliable."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <Button
+        android:id="@+id/buttonflamboy"
+        android:layout_width="146dp"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimary"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+</android.support.constraint.ConstraintLayout>

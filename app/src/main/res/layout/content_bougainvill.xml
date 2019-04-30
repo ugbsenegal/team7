@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".bougainvill"
+    tools:showIn="@layout/activity_bougainvill">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="285dp"
+        android:layout_height="214dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bougainvill" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="257dp"
+        android:layout_height="204dp"
+        android:text="Bienvenue à l'Hôtel Les Bougainvillées Saly - Sénégal  Situé à 80 kilomètres au sud de Dakar, en bord de mer à Saly Portudal, l'hôtel &quot;Les Bougainvillées&quot; est niché dans un paysage fleuri et trés arboré. Une architecture  typiquement africaine dans le calme et le confort d'une résidence. Les services d'un Hôtel 4 étoiles construit dans un parc naturel où vous trouverez la  brousse, la forêt et ses jardins denses."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <Button
+        android:id="@+id/buttonbougainvill"
+        android:layout_width="146dp"
+        android:layout_height="43dp"
+        android:background="#4CAF50"
+        android:text="En savoir plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+</android.support.constraint.ConstraintLayout>
